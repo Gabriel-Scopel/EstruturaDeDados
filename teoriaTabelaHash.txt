@@ -1,0 +1,9 @@
+busca binária: ocorre em um vetor ordenado por valor. pegamos ao meio e verificamos se o nosso valor está a direita ou esq
+e desconsideramos o resto. A cada busca desconsideramos metade dos outros valores não desconsiderados até então. A quantidade
+de buscar é log(n) na base 2. 
+tabeça hash: O tempo de busca se torna constante, independente do tamanho do arranjo. Cada posição do array possui o endereço de memória
+para um struct com os dados que queremos
+colisão: quando mapeamos um valor para uma posição do array que já está ocupada
+uma função ideal seria aquela que n ha colisão mas isso é impossível, em alguns casos devemos usar determinado método para gerar menos colisoes
+os valores que vão para a mesma posição vao para uma lista encadeada
+Dessa forma, uma tabela hash só possui o(n)=1 se n há mais de um valor em uma mesma posição (equiprovavel)
